@@ -70,16 +70,7 @@ h1, h2, h3 {
   background-color: #6D4C41 !important;
 }
 
-@media (max-width: 600px) {
-  .item {
-    width: 95%;
-  }
-  
-  input, textarea, button {
-    font-size: 16px;
-  }
-}
-/* أنماط إضافية للوحة الإدارة */
+/* أنماط لوحة الإدارة */
 .admin-panel {
   max-width: 800px;
   margin: 0 auto;
@@ -104,4 +95,18 @@ h1, h2, h3 {
   width: auto;
   padding: 8px 15px;
   margin-top: 10px;
+}
+
+.delete-btn {
+  background-color: #f44336 !important;
+}
+
+@media (max-width: 600px) {
+  .item {
+    width: 95%;
+  }
+  
+  input, textarea, button {
+    font-size: 16px;
+  }
 }
