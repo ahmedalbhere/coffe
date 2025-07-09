@@ -79,3 +79,29 @@ h1, h2, h3 {
     font-size: 16px;
   }
 }
+/* أنماط إضافية للوحة الإدارة */
+.admin-panel {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#admin-content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+#menu-items .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#menu-items .item button {
+  width: auto;
+  padding: 8px 15px;
+  margin-top: 10px;
+}
